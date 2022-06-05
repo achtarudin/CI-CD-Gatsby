@@ -150,7 +150,7 @@ const IndexPage = () => {
       </h1>
       <p style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this
-        page update in real-time. 😎 Encang Cutbray Here
+        page update in real-time. 😎 Encang Cutbray Here, And I AM Handsome
       </p>
       <ul style={doclistStyles}>
         {docLinks.map((doc) => (
