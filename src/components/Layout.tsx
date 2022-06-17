@@ -1,6 +1,6 @@
 import React from "react";
-import { graphql, useStaticQuery } from "gatsby";
-import { Box } from "@chakra-ui/react";
+import { graphql, useStaticQuery, Link } from "gatsby";
+import { Box, Text, Flex } from "@chakra-ui/react";
 
 type LayoutData = {
   children?: React.ReactNode;
@@ -28,6 +28,20 @@ function Layout({ children, title }: LayoutData) {
           {title} {titleSite}
         </title>
       ) : null}
+
+      <Flex mb={4}>
+        <Link to={"/blog"}>
+          <Text fontSize={20} color="pink.500" mr={4}>
+            Blog
+          </Text>
+        </Link>
+
+        <Link to={"/"}>
+          <Text fontSize={20} color="pink.500">
+            Me
+          </Text>
+        </Link>
+      </Flex>
       {children}
     </Box>
   );
