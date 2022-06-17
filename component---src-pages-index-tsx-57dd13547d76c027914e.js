@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkci_cd_gatsby=self.webpackChunkci_cd_gatsby||[]).push([[691],{6854:function(e,t,c){c.r(t);var n=c(7294),a=c(5214),l=c(6541);t.default=function(e){return e.data,n.createElement(a.Z,{title:"Index Pages"},n.createElement(l.xv,{mb:2,textAlign:"center",fontSize:24,color:"blue.500"},"Me"))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-57dd13547d76c027914e.js.map
